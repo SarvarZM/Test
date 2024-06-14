@@ -22,8 +22,8 @@ public class StreamWFilterTest {
         System.out.println(results);
 
 
-       List<Object> cities= persons.stream()
-               .flatMap(person -> person.getAddresses().stream())
+      // List<Object> cities= persons.stream()
+      //         .flatMap(person -> person.getAddresses().stream())
 
 
 
